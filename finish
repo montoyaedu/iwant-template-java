@@ -1,0 +1,3 @@
+#!/bin/sh
+mv src/main/java/App.java src/main/java/${AssemblyName}.java
+mv src/test/java/AppTest.java src/test/java/${AssemblyName}Test.java
